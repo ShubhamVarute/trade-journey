@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.marketlense"
+    namespace = "com.example.tradejourney"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.marketlense"
+        applicationId = "com.example.tradejourney"
         minSdk = 29
         targetSdk = 37
         versionCode = 1

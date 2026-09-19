@@ -1,10 +1,11 @@
-package com.example.marketlense
+package com.example.tradejourney
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.marketlense.ui.theme.MarketLenseTheme
+import com.example.tradejourney.ui.TradeJourneyApp
+import com.example.tradejourney.ui.theme.TradeJourneyTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -13,8 +14,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MarketLenseTheme {
-                MarketLensApp()
+            TradeJourneyTheme {
+                TradeJourneyApp()
             }
         }
     }

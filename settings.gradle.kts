@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MarketLense"
+rootProject.name = "TradeJourney"
 include(":app")
  

@@ -1,7 +1,7 @@
-package com.example.marketlense
+package com.example.tradejourney
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class MarketLensApplication : Application()
+class TradeJourneyApplication : Application()

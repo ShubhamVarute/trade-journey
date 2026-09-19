@@ -1,4 +1,4 @@
-package com.example.marketlense.ui.theme
+package com.example.tradejourney.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

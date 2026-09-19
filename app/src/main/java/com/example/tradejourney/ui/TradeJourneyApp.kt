@@ -1,4 +1,4 @@
-package com.example.marketlense
+package com.example.tradejourney.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -11,7 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 @Composable
-fun MarketLensApp() {
+fun TradeJourneyApp() {
     Scaffold(modifier = Modifier.fillMaxSize()) {
         Column(
             modifier = Modifier.padding(it).fillMaxSize(),

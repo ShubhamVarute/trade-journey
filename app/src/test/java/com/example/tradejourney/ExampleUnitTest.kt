@@ -1,4 +1,4 @@
-package com.example.marketlense
+package com.example.tradejourney
 
 import org.junit.Test
 
